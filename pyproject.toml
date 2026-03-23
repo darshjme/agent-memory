@@ -5,18 +5,29 @@ build-backend = "hatchling.build"
 [project]
 name = "agent-memory"
 version = "0.1.0"
-description = "Lightweight in-process memory for ReAct agents. Short-term context + episodic recall."
+description = "Lightweight memory system for LLM agents — short-term context + episodic memory without vector databases"
 readme = "README.md"
-requires-python = ">=3.11"
 license = {text = "MIT"}
-keywords = ["llm", "agents", "memory", "react", "ai"]
+authors = [{name = "Darshankumar Joshi", email = "darshjme@gmail.com"}]
+keywords = ["llm", "agents", "evaluation", "testing", "ai"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
+requires-python = ">=3.10"
+dependencies = []
 
-[project.optional-dependencies]
-dev = ["pytest>=8.0", "pytest-cov"]
+[project.urls]
+Homepage = "https://github.com/darshjme/agent-memory"
+Repository = "https://github.com/darshjme/agent-memory"
+Issues = "https://github.com/darshjme/agent-memory/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["agent_memory"]
