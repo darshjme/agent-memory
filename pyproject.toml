@@ -24,10 +24,19 @@ classifiers = [
 requires-python = ">=3.10"
 dependencies = []
 
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+]
+
 [project.urls]
-Homepage = "https://github.com/darshjme/agent-memory"
-Repository = "https://github.com/darshjme/agent-memory"
-Issues = "https://github.com/darshjme/agent-memory/issues"
+Homepage = "https://github.com/darshjme/engram"
+Repository = "https://github.com/darshjme/engram"
+Issues = "https://github.com/darshjme/engram/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["agent_memory"]
