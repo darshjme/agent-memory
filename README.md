@@ -3,11 +3,12 @@
 </p>
 
 <p align="center">
-  <a href="https://python.org"><img src="https://img.shields.io/badge/python-3.11%2B-blue" alt="Python"/></a>
+  <a href="https://github.com/darshjme/engram/actions/workflows/ci.yml"><img src="https://github.com/darshjme/engram/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <a href="https://pypi.org/project/agent-memory/"><img src="https://img.shields.io/pypi/v/agent-memory.svg" alt="PyPI version"/></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"/></a>
   <img src="https://img.shields.io/badge/tests-13%20passing-brightgreen" alt="Tests"/>
   <img src="https://img.shields.io/badge/vector%20db-not%20required-purple" alt="No vector DB"/>
-  <img src="https://img.shields.io/badge/pypi-coming%20soon-orange" alt="PyPI"/>
 </p>
 
 <p align="center"><b>Short-term working memory + episodic recall for agents — without a vector database.</b></p>
